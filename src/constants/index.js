@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    hudukaan,
+    sharetrack,
+    foodordering,
   } from "../assets";
   
   export const navLinks = [
@@ -54,9 +57,10 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Database Management",
+      icon: backend,
     },
+    
   ];
   
   const technologies = [
@@ -71,10 +75,6 @@ import {
     {
       name: "JavaScript",
       icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
     },
     {
       name: "React JS",
@@ -103,14 +103,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -198,66 +190,62 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "HU Dukaan",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed an e-commerce platform supporting product listing, ordering, and payment processing, with backend functionality for authentication, product management, and order processing",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MERN",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: hudukaan,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "ShareTrack",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Currently developing ShareTrack, a mobile app for peer-to-peer (P2P) lending, item rentals, and expense tracking. ",
       tags: [
         {
-          name: "react",
+          name: "React Native",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "PostgresQL",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: sharetrack,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Food Ordering App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Designed a front-end application for a food ordering service, with features for browsing restaurants, viewing menus, and placing orders.",	
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: foodordering,
       source_code_link: "https://github.com/",
     },
   ];

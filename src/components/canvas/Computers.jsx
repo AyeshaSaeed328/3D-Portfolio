@@ -15,11 +15,11 @@ const Computers = ({
 
   // Adjust position based on screen properties
   const position = isDoubleExtraTall
-    ? [0, -0.75, -2.2] // For very tall screens (>1200px)
+    ? [0, -1, -2.2] // For very tall screens (>1200px)
     : isExtraTall
-    ? [0, -1.5, -1.5] // For extra tall screens (>1000px)
+    ? [0, -2.5, -1.5] // For extra tall screens (>1000px)
     : isTall
-    ? [0, -1.5, -1.5] // For tall screens (>800px)
+    ? [0, -2, -1.5] // For tall screens (>800px)
     :isVeryNarrow
     ? [0, -3.5, -1.5] 
     : isMobile

@@ -30,6 +30,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import hudukaan from "./hudukaan.png";
+import sharetrack from "./sharetrack.png";
+import foodordering from "./foodordering.png";
 
 export {
   logo,
@@ -61,4 +64,7 @@ export {
   jobit,
   tripguide,
   logo2,
+  hudukaan,
+  sharetrack,
+  foodordering,
 };
