@@ -6,13 +6,13 @@ import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <section 
-    className='w-full h-screen mx-auto relative flex items-center justify-center'>
+    className='w-full h-[95vh] mx-auto relative flex items-center justify-center'>
     <div 
-      className={`${styles.paddingX} absolute inset-0 top-[130px] flex flex-col items-center text-center`}>
+      className={`${styles.paddingX} absolute inset-0 top-[145px] flex flex-col items-center text-center`}>
       <h1 className={`${styles.heroHeadText} text-white`}>
         Hi, I'm <span className='text-[#915eff]'>Ayesha</span>
       </h1>
-      <p className={`${styles.heroSubText} short:mt-0 mt-5 mb-10 text-white`}>
+      <p className={`${styles.heroSubText} short:mt-0 mt-5 text-white`}>
         I develop innovative web applications tailored for modern solutions.
       </p>
     </div>

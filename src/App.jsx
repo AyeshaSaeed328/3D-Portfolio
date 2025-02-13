@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from "./components"
+import {About, Contact, Hero, Navbar, Tech, Works, StarsCanvas, Footer} from "./components"
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -19,10 +19,9 @@ function App() {
         <Works />
         <div className='relative z-0'>
           <Contact />
-          
-          
           <StarsCanvas />
         </div>
+        <Footer/>
         
       </div>
     </BrowserRouter>
